@@ -5,4 +5,7 @@ public class Prob6 {
 		Employee pt = new Depart( "홍길동", 5000, "개발부" );
 		pt.getInformation();
 	}
+	
+	
+	
 }
