@@ -14,6 +14,10 @@ public class Prob3 {
 	}
 
 	public static char[] reverse(String str) {
+		/* 구현코드 */
+		StringBuffer a = new StringBuffer(str);
+		a.reverse();
+		a.toString().toCharArray();
 		reverse = new char[str.length()];
 		int j = 1;
 		for (int i = 0; i < str.length(); i++) {
@@ -21,7 +25,6 @@ public class Prob3 {
 		}
 
 		return reverse;
-		/* 구현코드 */
 
 	}
 
